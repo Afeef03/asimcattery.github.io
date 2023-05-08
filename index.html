@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- ===================NAVBAR START HERE================= -->
+
+
+    <nav class="navbar navbar-expand-lg  fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hyderabad Fusion Cattery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- ==============UL-TAG-START-HERE==================== -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- =====================1======================= -->
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <!-- =====================2======================= -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <!-- =====================3======================= -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <!-- =====================4======================= -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#why">Why Us</a>
+                    </li>
+                    <!-- =====================5======================= -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs">FAQ</a>
+                    </li>
+                    <!-- =====================6======================= -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <!-- ==============UL-TAG-END-HERE==================== -->
+            </div>
+        </div>
+    </nav>
+    <!-- ===================NAVBAR END HERE=================== -->
+    <div class="icon1">
+        <ul>
+            <a href="">
+                <li class="instagram"><i class="fa-brands fa-square-instagram"></i></li>
+            </a>
+            <a href="https://www.youtube.com/@hyderabadfusion">
+                <li class="youtube"><i class="fa-brands fa-youtube"></i></li>
+            </a>
+        </ul>
+    </div>
+
+
+    <!-- ===================slider start here================ -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="inner-text">
+                        <h3>welcome to hyderabad fusion cattery</h3>
+                    </div>
+                    <p class="">Come and meet our furry residents! They can't wait to make new friends.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Find Your Perfect Furry Friend at Hyderabad Fusion</h5>
+                    <p>We believe that every cat deserves a loving home. Come see how we're making that a reality at
+                        Hyderabad Fusion Cattery.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- ===================slider end here================ -->
+
+
+    <!-- =====================ABOUT SECTION START HERE==================== -->
+    <section class="about mt-5 animate__animated animate__duration-3s" id="about">
+        <div class="container">
+            <!-- <h2 class="deco-title">About Us</h2> -->
+            <div class="row">
+                <div class="col-md-6 mt-5 about-img animate__animated animate__slideInLeft animate__duration-1s">
+                    <img src="img/about-img.avif" class="hover-img" alt="">
+                </div>
+                <div class="col-md-6 mt-5 animate__animated animate__slideInRight animate__duration-2s col-in">
+                    <div class="about-txt">
+
+                        <h4 class="fw-bold mb-3">&nbsp; About Us</h4>
+                        <h2 class="fw-bold"><span></span> &nbsp; Welcome to Hyderabad Fusion Cattery, &nbsp; where cats
+                            are family!</h2>
+                        <p class="mt-3 text-muted">Welcome to Hyderabad Fusion Cattery, a place where we celebrate our
+                            love for cats! We are a small family-owned cattery dedicated to breeding and raising
+                            healthy, happy, and beautiful Persian and Himalayan cats.
+                        </p>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="inner-col-1">
+                                    <div class="icons">
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </div>
+                                    <h4 class="normal-font mt-3" style="color: black!important;">We Educate</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="inner-col-1">
+                                    <div class="icons">
+                                        <i class="fa-solid fa-otter"></i>
+                                    </div>
+                                    <h4 class="normal-font mt-3" style="color: black!important;">We play</h4>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="inner-col-1">
+                                    <div class="icons">
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </div>
+                                    <h4 class="normal-font mt-3" style="color: black!important;">We Educate</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#faqs" class="btn-in"><button>Know More</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ====================GALLERY START HERE================ -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h1 class="text-center">Check out our <span class="color-h1">gallery</span></h1>
+            <!-- Gallery -->
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-6 mb-4 mb-lg-0 gallery-img">
+                    <img src="img/G-1.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+                    <img src="img/about.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Wintry Mountain Landscape" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0 col-sm-6 gallery-img">
+                    <img src="img/gallery-long.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Mountains in the Clouds" />
+
+                    <img src="img/g-4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0 col-sm-6 gallery-img">
+                    <img src="img/g-6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+                    <img src="img/gallery-2.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Yosemite National Park" />
+                </div>
+            </div>
+            <!-- Gallery -->
+        </div>
+    </section>
+    <!-- ====================GALLERY END HERE================ -->
+
+
+
+
+
+    <!-- =====================ABOUT SECTION END HERE==================== -->
+
+    <section class="services">
+        <div class="container">
+
+            <div class="content">
+                <!-- <h2 class="text-center after-heading">Why <span style="color: #e1ab87;" class="fw-bold">us ?</span></h2> -->
+            </div>
+
+            <div class="row mt-5">
+                <!-- ===============1====================== -->
+                <div class="col-md-6" id="col">
+                    <div class="col-img">
+                        <img src="img/service.jpg" class="img-fluid service-img" alt="">
+                    </div>
+                </div>
+                <!-- ==============2==================== -->
+                <div class="col-md-6 mt-4">
+                    <div class="inner-col-txt">
+                        <h2 class="normal-font fw-bold">What sets <span style="color: #e1ab87; font-weight: bold;">asim
+                                cattery</span> apart from the rest?</h2>
+                        <p class="text-muted mt-3">
+                            <strong>Health and safety:</strong> Asim Cattery may prioritize the health and safety of
+                            their cats, by providing them with regular veterinary care, high-quality nutrition, and a
+                            clean and comfortable living environment.
+                        </p>
+                        <p class="text-muted mt-3">
+                            <strong>Knowledge and expertise: </strong> Asim Cattery may have a team of knowledgeable and
+                            experienced breeders and caretakers who are passionate about cats and committed to providing
+                            the best possible care
+                        </p>
+                        <p class="text-muted mt-3">
+                            <strong>Positive reviews and testimonials: </strong> : Asim Cattery may have a strong
+                            reputation in the cat community, with many positive reviews and testimonials from satisfied
+                            customers who have adopted cats from the cattery.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn-in btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            learn more
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Experience the Beauty and
+                                            Charm of Asim Cattery</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-muted">
+                                            At Asim Cattery, we are dedicated to providing our customers with the best
+                                            possible experience when it comes to adopting a new furry friend. Our cats
+                                            are carefully bred and raised with the utmost care and attention, ensuring
+                                            that they are healthy, happy, and ready to become a beloved member of your
+                                            family.
+
+                                            Our cattery offers a wide variety of breeds to choose from, including
+                                            Siamese, Persian, Maine Coon, and many more. We believe that every cat is
+                                            unique, with its own personality and quirks, and we strive to match each of
+                                            our customers with the perfect cat for their lifestyle and preferences.
+
+                                            In addition to our exceptional breeding practices, we also provide our cats
+                                            with plenty of socialization and playtime, ensuring that they are
+                                            well-adjusted and comfortable around people. We pride ourselves on our
+                                            attention to detail and personalized service, and we are always happy to
+                                            answer any questions or concerns you may have about your new furry friend.
+
+                                            Whether you are a first-time cat owner or a seasoned feline lover, we invite
+                                            you to experience the beauty and charm of Asim Cattery. Our cats are sure to
+                                            steal your heart and bring joy to your life for years to come.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================WHY US START HERE================ -->
+    <section class="why-us" id="why">
+        <div class="container">
+            <h1 class="text-center">why <span class="fw-bold" style="color: #e1ab87;">us?</span></h1>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="inner-col-1">
+                        <div class="icon">
+                            <i class="fa-sharp fa-regular fa-gem"></i>
+                        </div>
+                        <div class="inner-txt-col mt-2">
+                            <h3 class="fw-bold">excellence</h3>
+                            <p class="mt-3 text-muted">
+                                At Asim Cattery, we are dedicated to excellence in everything we do. From our
+                                exceptional breeding practices to our personalized attention to each and every cat, we
+                                strive to provide our customers with the best possible experience when it comes to
+                                buying a new furry friend.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="inner-col-1">
+                        <div class="icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="inner-txt-col mt-4">
+                            <h3 class="fw-bold">Personalized Attention</h3>
+                            <p class="mt-3 text-muted">
+                                We take the time to get to know each of our cats, and provide them with personalized
+                                attention and care. This ensures that they are well-socialized, comfortable around
+                                people, and ready to become a beloved member of your family.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="inner-col-1">
+                        <div class="icon">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="inner-txt-col mt-4">
+                            <h3 class="fw-bold">Positive Reputation</h3>
+                            <p class="mt-3 text-muted">
+                                We have a strong reputation in the cat community, with many satisfied customers who have
+                                adopted cats from our cattery. We take pride in our work, and are dedicated to providing
+                                exceptional service to all of our customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================WHY US END HERE================ -->
+
+
+
+    <!-- ====================testimonials slider strat here============== -->
+
+    <!-- ====================testimonials slider end here============== -->
+
+    <!-- ===============================accordian FAQ START HERE=============== -->
+
+    <div class="container mt-5" id="faqs">
+        <h1 class="text-center my-5">Frequently Asked <span style="color: #e1ab87;">Question</span></h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What breed of cat is best for me?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="text-muted">
+                            It depends on your lifestyle and personality. Some breeds are more active and require more
+                            attention, while others are more laid-back and independent. Do your research and talk to a
+                            reputable breeder to find a breed that suits your needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How do I introduce my new cat to my home?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="text-muted">Take it slow and give your new cat time to adjust. Start by confining your
+                            cat to a small space with food, water, litter box, and a comfortable bed. Gradually
+                            introduce your cat to other rooms in the house and other pets or family members. Use
+                            positive reinforcement and plenty of treats to help your cat feel comfortable and safe.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How can I keep my cat healthy and happy?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="text-muted">
+                            Provide your cat with a healthy diet, plenty of fresh water, regular exercise, and lots of
+                            love and attention. Keep your cat's environment clean and safe, and provide toys and
+                            scratching posts to satisfy their natural instincts. Regular grooming and preventive care,
+                            such as vaccinations and parasite control, can also help keep your cat healthy and happy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        How often should I take my cat to the vet?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="text-muted">
+                            It's recommended to take your cat to the vet at least once a year for a checkup and preventive care, such as vaccinations and parasite control. If your cat has any health issues or is a senior, you may need to visit the vet more frequently.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===============================accordian FAQ END HERE=============== -->
+    <!-- ========================FOOTER======================== -->
+    <div class="container">
+        
+    </div>
+    
+    <div>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+            <p class="col-md-4 mb-0 text-light px-3">© 2023 Asim Cattery, Inc</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
+                <h3 class="navbar-brand">Asim Cattery</h3>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link px-2 text-muted">Gallery</a></li>
+                <li class="nav-item"><a href="#faqs" class="nav-link px-2 text-muted">FAQ</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+            </ul>
+        </footer>
+    </div>
+    <!-- ========================FOOTER======================== -->
+    <button id="back-to-top-btn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+<script>
+    // Get the navbar element
+    const navbar = document.querySelector("nav");
+
+    // Listen for the scroll event on the window object
+    window.addEventListener('scroll', () => {
+        // Check if the user has scrolled down more than 100px
+        if (window.scrollY > 100) {
+            // Add the "scrolled" class to the navbar
+            navbar.classList.add('scrolled');
+        } else {
+            // Remove the "scrolled" class from the navbar
+            navbar.classList.remove('scrolled');
+        }
+    });
+
+</script>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("back-to-top-btn").classList.add("show");
+        } else {
+            document.getElementById("back-to-top-btn").classList.remove("show");
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    document.getElementById("back-to-top-btn").addEventListener("click", function () {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    });
+
+</script>
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?39476';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+        "enabled": true,
+        "chatButtonSetting": {
+            "backgroundColor": "#4dc247",
+            "ctaText": "",
+            "borderRadius": "25",
+            "marginLeft": "30",
+            "marginBottom": "50",
+            "marginRight": "50",
+            "position": "left"
+        },
+        "brandSetting": {
+            "brandName": "Asim Cattery",
+            "brandSubTitle": "Typically replies within a day",
+            "brandImg": "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+            "welcomeText": "Hi there!\nHow can I help you?",
+            "messageText": "Hello, I have a question about {{page_link}}",
+            "backgroundColor": "#0a5f54",
+            "ctaText": "Start Chat",
+            "borderRadius": "25",
+            "autoShow": false,
+            "phoneNumber": "7207148265"
+        }
+    };
+    s.onload = function () {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+
+</html>

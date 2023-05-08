@@ -1,0 +1,390 @@
+/* =======================IMPORT-LINKS-FOR-FONT=================== */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=League+Spartan&family=Lobster&family=Lobster+Two:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=League+Spartan&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=League+Spartan&family=Lobster&family=Lobster+Two:wght@700&family=Roboto:wght@300&display=swap");
+/* ====================CSS FOR LANDING PAGE=================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #e1ab87;
+  --bg-primary: #f5fffa;
+  --icon-color: orangered;
+}
+.normal-font {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Lobster Two", cursive;
+  text-transform: capitalize;
+}
+a {
+  font-size: 25px !important;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+/* =======================NAVBAR-START-CSS=================== */
+nav {
+  padding: 20px;
+  transition: 1s ease-in-out;
+}
+
+.nav-item {
+  padding-inline: 10px;
+}
+.nav-link {
+  font-weight: bold !important;
+  color: white;
+}
+.nav-link .active {
+  color: var(--color-primary);
+}
+.nav-link:hover {
+  color: var(--color-primary) !important;
+}
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px !important;
+  font-weight: bold;
+  color: var(--color-primary) !important;
+}
+.scrolled {
+  background-color: white;
+}
+.scrolled ul li a {
+  color: black;
+}
+/* =======================NAVBAR-START-CSS=================== */
+/* ===============slider css start here================ */
+.carousel-item img {
+  height: 90vh;
+}
+.carousel-caption {
+  position: absolute;
+  top: 54%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  background-color: #efc8ae;
+  width: 30%;
+  height: 25%;
+  opacity: 0.9;
+  border-radius: 15px;
+  color: black;
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 0px;
+  border-radius: 50%;
+  width: 18px;
+  background: var(--color-primary);
+}
+/* ===============slider css end here================ */
+
+/* ================about section start here============== */
+.about {
+  background-image: url("img/pattern.avif");
+}
+.about-txt h4 {
+  color: var(--color-primary);
+}
+.about-txt h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.about-img {
+  text-align: center;
+}
+.about-img img {
+  width: 100%;
+  /* border-radius: 30px; */
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+.about-txt span {
+  border-left: 4px solid var(--color-primary);
+  height: 10px;
+}
+.btn-in button {
+  font-size: 18px !important;
+  padding: 8px;
+  background-color: var(--color-primary);
+  color: white;
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+}
+.btn-in {
+  font-size: 18px !important;
+  padding: 8px;
+  background-color: var(--color-primary);
+  color: white;
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+}
+.why-us {
+  /* background-color: #f0cfba; */
+  padding: 30px;
+}
+.inner-col {
+  border: 8px solid var(--color-primary);
+  background-color: white;
+  color: black;
+  padding: 15px;
+  /* border-radius: 20px; */
+  cursor: pointer;
+}
+.inner-col:hover i {
+  color: white;
+  /* background-color: var(--color-primary); */
+}
+.inner-col:hover {
+  background-color: #e1ab87;
+  color: white !important;
+}
+.inner-col-text i {
+  font-size: 40px;
+  color: var(--color-primary);
+}
+/* ================about section end here============== */
+.hover-img {
+  transition: 0.4s ease-in;
+  cursor: pointer;
+}
+.hover-img:hover {
+  transform: scale(1.05);
+}
+#col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ===================yt abou css===================== */
+
+.deco-title {
+  font-size: 10rem;
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: 0.5;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--color-primary);
+  transform-origin: top left;
+  transform: rotate(0.25turn);
+  position: absolute;
+  top: 115%;
+  left: 48%;
+  z-index: -1;
+}
+.inner-col-1 {
+  text-align: center;
+  padding: 30px;
+  background-color: #f3d8c5;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: black;
+  transition: 0.4s ease-in-out;
+  /* height: 350px; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inner-col-1:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transform: translateY(-10px);
+}
+.icons i {
+  color: var(--icon-color);
+  font-size: 2rem;
+}
+.icon i {
+  color: var(--icon-color);
+  font-size: 3rem;
+}
+/* ======================end================== */
+
+/* ========================CSS FOR SERVICES SECTION START HERE============= */
+.services {
+  margin-top: 80px;
+}
+/* ========================CSS FOR SERVICES SECTION END HERE============= */
+
+/* ==================CSS FOR GALLERY START HERE================ */
+.gallery {
+  margin-top: 100px;
+}
+.gallery-img {
+  margin-top: 20px;
+}
+.gallery-img img {
+  /* width: 300px;
+  height: 300px; */
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.gallery-img img:hover {
+  transform: scale(1.04);
+}
+.color-h1 {
+  color: var(--color-primary);
+}
+/* ==================CSS FOR GALLERY END HERE================ */
+
+/* =======================CSS FOR SERVICES START HERE====================== */
+.service-img {
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.4s ease-in-out;
+}
+
+/* =======================CSS FOR SERVICES ENDS HERE====================== */
+
+/* =================why us css strat here============ */
+.why-us {
+  margin-top: 100px;
+}
+/* =================why us css end here============ */
+/* ==============CSS FOR RESPONSIVE DESIGN=============== */
+/* icons navbar vertical  */
+.icon1 {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  position: fixed;
+  z-index: 100;
+}
+.icon1 ul {
+  padding: initial;
+}
+.icon1 ul li {
+  height: 40px;
+  width: 50px;
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 6px;
+  /* margin-top: 5px; */
+  color: #fff;
+  /* background: #000; */
+}
+.icon2 ul li a i {
+  height: 40px;
+  width: 40px;
+}
+.icon1 ul li i {
+  height: 40px;
+  width: 40px;
+}
+.facebook {
+  background: #3b5998;
+}
+.youtube {
+  background: #ff0000;
+}
+.twitter {
+  background: #55acee;
+}
+.instagram {
+  background: #ff4800;
+}
+.whatsapp {
+  background: #25d366;
+}
+footer {
+  background-color: rgb(29, 29, 29);
+  margin-top: 80px;
+}
+.list-unstyled {
+  color: white;
+}
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: var(--color-primary);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  /* transition: 1s ease-in-out; */
+  transition: opacity 0.3s ease-in-out;
+}
+#back-to-top-btn.show {
+  opacity: 1;
+  display: block;
+}
+#back-to-top-btn:hover {
+  background-color: #555;
+}
+.col-in {
+  position: relative;
+  left: 20px;
+}
+/* Show the button when the user scrolls down 20px */
+@media screen and (min-width: 768px) {
+  /* Only show the button on larger screens */
+  #back-to-top-btn {
+    display: block !important;
+  }
+}
+
+/* Icon for the button */
+i.fas.fa-chevron-up {
+  margin: auto;
+}
+@media (max-width: 900px) {
+  .nav-link {
+    font-weight: bold !important;
+    color: black;
+    text-align: center;
+  }
+}
+@media (max-width: 550px) {
+  .navbar-brand {
+    font-size: 22px !important;
+  }
+  .carousel-item img {
+    height: auto;
+  }
+  .carousel-caption {
+    display: none !important;
+  }
+  nav {
+    background-color: white;
+  }
+  .scrolled {
+    opacity: 0.8;
+    text-align: center;
+  }
+  nav ul li a {
+    color: black;
+  }
+  .carousel-item img {
+    margin-top: 50px;
+  }
+  .col-in {
+    position: relative;
+    left: 0px;
+  }
+  .inner-col-1 {
+    padding: 20px;
+  }
+}
