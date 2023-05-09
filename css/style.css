@@ -361,6 +361,9 @@ i.fas.fa-chevron-up {
   .navbar-brand {
     font-size: 22px !important;
   }
+  #row{
+    flex-direction: column-reverse;
+  }
   .carousel-item img {
     height: auto;
   }
